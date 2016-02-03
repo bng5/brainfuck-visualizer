@@ -184,7 +184,8 @@ section.machine {
             background-color: #e9e9e9;
         }
 
-    #interpreter #output {
+    #interpreter #output,
+    #interpreter #stream_input {
         font-family: monospace;
         font-size: 17px;
         margin: 0 22px 0 0;
@@ -192,6 +193,10 @@ section.machine {
         min-height: 1.2em;
         padding: 10px;
         color: #5d5d5d;
+    }
+    
+    #interpreter #stream_input {
+        width: 820px;
     }
 
     #interpreter #output.error {
@@ -215,4 +220,3 @@ section.machine {
     section#info {
         margin: 0 20px;
     }
-
